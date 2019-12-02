@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    /*The box-sizing property is used to tell the browser what the sizing properties (width and height) should include border-box.*/
+    box-sizing: border-box;
+    /*reset Chrome user agent styles*/
+    -webkit-margin-before: 0px;
+    -webkit-margin-after: 0px;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-before: 0px;
+    -webkit-padding-after: 0px;
+    -webkit-padding-start: 0px;
+    -webkit-padding-end: 0px;
+}
+  
+  body {
+    font-family: "Open Sans",
+    sans-serif; 
+    font-size: 20px;
+    color: #444;
+    text-align: center;
+    line-height: 1.5;
+  }
+  
+  nav,
+  footer {
+    padding: 1% 0;
+    background-color: #aaa;
+  }
+  
+  nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+  }
+  
+  
+  
+  header {
+    position: relative;
+    padding: 12% 0;
+    width: 100%;
+    height: 500px;
+    background-image: url('/images/cory-portfolio-cropped.jpg');
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .slogan {
+      position: absolute;
+      bottom: 1%;
+      left: 3%;
+      color: white;
+      font-size: 15px;
+  }
+  section {
+    min-height: 200px;
+    background-color: #bbb;
+  }
+  
+  section:nth-child(even) {
+    background-color: #ddd;
+  }
+
+
+
+
+
+
+
+
+
+
+/*media queries*/
+
+  /*iPhone portrait*/
+
+@media only screen and (min-width: 320px) {
+    body {
+        color: purple;
+    }
+}
+
+
+/*iPhone landscape*/
+
+@media only screen and (min-width: 480px) {
+    body {
+        color: green;
+    }
+    .slogan {
+        font-size: 10px;
+    }
+}
+
+
+/*ipad potrait*/
+
+@media only screen and (min-width: 768px) {
+    body {
+        color: red;
+    } 
+    header {
+        height: 600px;
+      }
+}
+
+
+/*ipad lanscape / small laptop*/
+
+@media only screen and (min-width: 1024px) {
+    body {
+        color: blue;
+    }
+    header {
+        height: 700px;
+      }
+}
