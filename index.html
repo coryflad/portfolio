@@ -1,33 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <title>HTML wireframe</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">
     <link rel="stylesheet" type="text/css" href="main.css">
 </head>
+
 <body>
-    <nav role="navigation">Nav</nav>
+
+    <nav role="navigation">
+        <h2>Cory Fladhammer</h2>
+        <li>
+            <ul>
+                <a>About</a>
+            </ul>
+            <ul>
+                <a>Projects</a>
+            </ul>
+            <ul>
+                <a>Skills</a>
+            </ul>
+            <ul>
+                <a>Contact</a>
+            </ul>
+        </li>
+    </nav>
+
     <main role="main">
         <header role="banner">
             <div class="slogan">
-            <h1>Exploring through collaboration</h1>
+                <h1>Exploring through collaboration</h1>
             </div>
         </header>
 
-        <section>
-            About
+        <section class="about" role="region">
+            <div class="section container">
+                <h3 class="section-title">
+                    About
+                </h3>
+                <p>Hi, I am Cory Fladhammer and a current student of the Engineering Flex program with Thinkful. I look
+                    forward to the day when I am able to apply the coding skills I’m learning and use them to provide
+                    real world solutions. I’m also excited to learn more about how front end and back end technologies
+                    interface with one another.</p>
+                <p>When I’m not learning how to code I like to train for bike racing, sail on Lake Michigan,
+                    backpacking/traveling, and spending time with my family.</p>
+            </div>
         </section>
 
-        <section>
-            Projects
+        <section class="projects" role="region">
+            <div class="section-container">
+                <h3 class="section-title">Projects</h3>
+            </div>
         </section>
 
-        <section>
-            Skills
+        <section class="skills" role="region">
+            <div class="section-container">
+                <h3 class="section-title">Skills</h3>
+            </div>
+        </section>
+
+        <section class="contact" role="region">
+            <h3 class="section-title">Contact</h3>
+            <ul>
+                <li>LinkedIn</li>
+                <li>GitHub</li>
+                <li>Email</li>
+                <li></li>
+            </ul>
+            </div>
         </section>
 
     </main>
-    <footer role="content-info">Contact Info</footer>
+    <footer role="content-info">
+        <p>2019 Cory Fladhammer</p>
+    </footer>
 </body>
+
 </html>
