@@ -15,6 +15,10 @@
     -webkit-padding-start: 0px;
     -webkit-padding-end: 0px;
 }
+
+body {
+    background-color: #FE9563;
+}
   
 nav,
 footer {
@@ -23,8 +27,25 @@ background-color: #aaa;
 }
 
 nav {
+position: fixed;
+width: 100%;
 padding: 10px;
 z-index: 1000;
+}
+
+section {
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    font-size: .85rem;
+    text-align: center;
+}
+
+
+section p {
+    padding-top: 10px;
+    padding-bottom: 20px;
 }
 
 ul {
@@ -63,6 +84,10 @@ section:nth-child(even) {
 background-color: #ddd;
 }
 
+.fas {
+    font-family: ;
+}
+
 
 
 
@@ -80,10 +105,26 @@ background-color: #ddd;
 body {
     color: purple;
     }
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+section, footer {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4px;
+    border: solid 1px lightgrey;
+    }
 
-nav ul {
-    text-align: center;
-    }    
+.slogan {
+    font-size: 8px;
+    }
+footer {
+    text-align:  center;
+    font-size: 14px;
+    }
 }
 
 
