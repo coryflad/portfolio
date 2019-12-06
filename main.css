@@ -67,6 +67,7 @@ main header .slogan {
 /* content styles */
 main section {
     display: block;
+    text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
     width: 100%;
@@ -98,6 +99,9 @@ main figcaption {
     padding-top: 10px;
 }
 /* footer styles */
+footer {
+    text-align: center;
+}
 footer ul {
     display: flex;
     flex-direction: row;
@@ -117,7 +121,6 @@ footer .container ul li {
     body {
         color: purple;
    }
-
     .slogan {
         font-size: 8px;
    }
@@ -127,26 +130,8 @@ footer .container ul li {
     body {
         color: green;
    }
-    nav {
-        text-align: center;
-   }
     .slogan {
         font-size: 10px;
-   }
-    section, footer {
-        text-align: center;
-        width: 100%;
-        margin-top: 4px;
-        border: solid 1px lightgrey;
-   }
-    .slogan {
-        font-size: 8px;
-   }
-    footer ul {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        padding: 10px;
    }
 }
 /*ipad potrait*/
