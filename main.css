@@ -71,7 +71,6 @@ main section {
     padding-bottom: 10px;
     width: 100%;
     font-size: .85rem;
-    text-align: center;
     min-height: 200px;
     background-color: #bbb;
     font-family: 'Raleway', sans-serif;
@@ -83,7 +82,21 @@ main section p {
     padding-top: 10px;
     padding-bottom: 20px;
 }
-
+main figcaption {
+    padding: 6px;
+}
+.skills-item {
+    border: 1px solid dodgerblue;
+    overflow: hidden;
+    width: 150px;
+    height: 150px;
+    margin-top: 15px;
+    background-color: lightgrey;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
+    padding-top: 10px;
+}
 /* footer styles */
 footer ul {
     display: flex;
@@ -104,15 +117,7 @@ footer .container ul li {
     body {
         color: purple;
    }
-    nav {
-        text-align: center;
-   }
-    section, footer {
-        text-align: center;
-        width: 100%;
-        margin-top: 4px;
-        border: solid 1px lightgrey;
-   }
+
     .slogan {
         font-size: 8px;
    }
