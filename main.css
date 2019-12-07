@@ -18,17 +18,21 @@
 /* general styles */
 body {
     background-color: #FE9563;
+    letter-spacing: .1em;
 }
 nav, footer {
     padding: 1% 0;
     background-color: #aaa;
+    text-align: center;
 }
 ul {
     display: inline-block;
 }
 li {
+    display: inline-block;
     list-style: none;
 }
+
 /* header styles */
 nav {
     position: fixed;
@@ -67,12 +71,11 @@ main header .slogan {
 /* content styles */
 main section {
     display: block;
-    text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
+    min-height: 100px;
     width: 100%;
     font-size: .85rem;
-    min-height: 200px;
     background-color: #bbb;
     font-family: 'Raleway', sans-serif;
 }
@@ -86,7 +89,8 @@ main section p {
 main figcaption {
     padding: 6px;
 }
-.skills-item {
+
+main .skills-item {
     border: 1px solid dodgerblue;
     overflow: hidden;
     width: 150px;
@@ -97,6 +101,10 @@ main figcaption {
     margin-right: 0;
     text-align: center;
     padding-top: 10px;
+}
+main .contact-container {
+    text-align: center;
+    padding: 10px;
 }
 /* footer styles */
 footer {
