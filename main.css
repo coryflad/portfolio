@@ -156,6 +156,10 @@ main .project-container .list li {
     color: white;
     border-radius: 2px;
 }
+.portfolio .links a:hover {
+    color: #FEA049;
+    background-color: white;
+}
 .portfolio img {
     display: block;
     max-height: 200px;
