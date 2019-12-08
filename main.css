@@ -38,6 +38,12 @@ li {
     display: inline-block;
     list-style: none;
 }
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: line-through;
+}
 
 /* header styles */
 nav {
@@ -98,10 +104,15 @@ main figcaption {
     padding: 6px;
 }
 
+main .skills .flex {
+    display: block;
+    text-align: center;
+}
 main .skills-item {
     border: 1px solid dodgerblue;
     overflow: hidden;
     width: 150px;
+    display: inline-block;
     height: 150px;
     margin-top: 15px;
     background-color: lightgrey;
