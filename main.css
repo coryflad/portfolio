@@ -98,6 +98,17 @@ main figcaption {
     padding: 6px;
 }
 
+h4 {
+    text-align: center;
+    margin-top: 5px;
+}
+
+ul .list {
+    text-align: center;
+    background-color: darkcyan;
+    color: white;
+}
+
 main .skills .flex {
     display: block;
     text-align: center;
@@ -133,7 +144,7 @@ main .project-container {
 .portfolio img {
     display: block;
     max-height: 200px;
-    max-width: 400px;
+    max-width: 237px;
     width: auto;
     height: auto;
     margin: 2px;
