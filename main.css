@@ -139,7 +139,21 @@ main .project-container {
     height: 200px;
     width: auto;
     height: auto;
-    margin: 10px;
+}
+
+main .project-container .list li {
+    border: 4px solid #1E3487;
+    padding: 1px;
+    margin-bottom: 5px;
+}
+.portfolio .links a {
+    display: inline-block;
+    text-align: center;
+    width: 100px;
+    font-size: 20px;
+    background-color: #1E3487;
+    color: white;
+    border-radius: 2px;
 }
 .portfolio img {
     display: block;
@@ -150,6 +164,9 @@ main .project-container {
     margin: 2px;
     padding-left: 3px;
 }
+
+
+
 
 /* footer styles */
 footer {
