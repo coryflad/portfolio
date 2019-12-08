@@ -40,6 +40,7 @@ li {
 }
 a {
     text-decoration: none;
+    color: #1E3487;
 }
 a:hover {
     color: #FEA049;
@@ -99,8 +100,10 @@ main figcaption {
 }
 
 h4 {
-    text-align: center;
-    margin-top: 5px;
+    
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-style: italic;
 }
 
 ul .list {
@@ -134,8 +137,6 @@ main .contact ul {
     font-size: 24px;
 }
 main .project-container {
-    border: 1px solid #071241;
-    border-radius: 2px;
     height: 200px;
     width: auto;
     height: auto;
@@ -158,11 +159,9 @@ main .project-container .list li {
 .portfolio img {
     display: block;
     max-height: 200px;
-    max-width: 237px;
+    max-width: 220px;
     width: auto;
     height: auto;
-    margin: 2px;
-    padding-left: 3px;
 }
 
 
