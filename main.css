@@ -88,7 +88,7 @@ main section {
     background-color: #bbb;
     font-family: 'Raleway', sans-serif;
     border: 1px solid #071241;
-    border-radius: 10px;
+    border-radius: 2px;
 }
 main section p {
     padding-top: 10px;
@@ -104,7 +104,7 @@ main .skills .flex {
 }
 main .skills-item {
     border: 1px solid #071241;
-    border-radius: 10px;
+    border-radius: 2px;
     overflow: hidden;
     width: 150px;
     display: inline-block;
@@ -116,12 +116,28 @@ main .skills-item {
     text-align: center;
     padding-top: 10px;
 }
-
 main .contact ul {
     display: flex;
     justify-content: space-evenly;
     padding: 20px;
     font-size: 24px;
+}
+main .project-container {
+    border: 1px solid #071241;
+    border-radius: 2px;
+    height: 200px;
+    width: auto;
+    height: auto;
+    margin: 10px;
+}
+.portfolio img {
+    display: block;
+    max-height: 200px;
+    max-width: 400px;
+    width: auto;
+    height: auto;
+    margin: 2px;
+    padding-left: 3px;
 }
 
 /* footer styles */
@@ -131,12 +147,6 @@ footer {
 footer ul .contact-container{
     display: flex;
     justify-content: space-evenly;
-
-}
-footer .container {
-
-}
-footer .container ul li {
 
 }
 
