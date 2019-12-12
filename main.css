@@ -99,7 +99,7 @@ main header {
     background-size: cover;
     font-family: 'Raleway', sans-serif;
 }
-main h1 {
+main header .slogan {
     position: absolute;
     bottom: 1%;
     left: 3%;
