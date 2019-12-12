@@ -86,7 +86,7 @@ nav h1 {
     padding: 6px;
 }
 nav ul {
-    padding: 6px;
+    padding: 8px;
 }
 main header {
     position: relative;
@@ -130,20 +130,17 @@ main section p {
 main figcaption {
     padding: 6px;
 }
-
 h4 {
     
     margin-top: 10px;
     margin-bottom: 5px;
     font-style: italic;
 }
-
 ul .list {
     text-align: center;
     background-color: darkcyan;
     color: white;
 }
-
 main .skills .flex {
     display: block;
     text-align: center;
@@ -179,7 +176,7 @@ main .project-container .list li {
     padding: 1px;
     margin-bottom: 5px;
 }
-.portfolio .links a {
+main .portfolio .links a {
     display: inline-block;
     text-align: center;
     width: 100px;
@@ -188,21 +185,17 @@ main .project-container .list li {
     color: white;
     border-radius: 2px;
 }
-.portfolio .links a:hover {
+main .portfolio .links a:hover {
     color: #FEA049;
     background-color: white;
 }
-.portfolio img {
+main .portfolio img {
     display: block;
     max-height: 200px;
     max-width: 220px;
     width: auto;
     height: auto;
 }
-
-
-
-
 /* footer styles */
 footer {
     text-align: center;
@@ -212,6 +205,8 @@ footer ul .contact-container{
     justify-content: space-evenly;
 
 }
+
+
 
 /*media queries*/
 /*iPhone portrait*/
