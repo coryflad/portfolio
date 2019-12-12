@@ -103,12 +103,12 @@ main header .slogan {
     position: absolute;
     bottom: 1%;
     left: 3%;
-    color: white;
+    color: #12193F;
     text-shadow:
-    -1px -1px 0 #000,
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-    1px 1px 0 #000;
+    -1px -1px 0 white,
+    1px -1px 0 white,
+    -1px 1px 0 white,
+    1px 1px 0 white;
     font-size: 32px;
 }
 /* content styles */
