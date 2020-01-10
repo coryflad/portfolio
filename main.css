@@ -169,6 +169,11 @@ main .project-container {
     height: 200px;
     width: auto;
     height: auto;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: lightgray
 }
 
 main .project-container .list li {
