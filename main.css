@@ -178,7 +178,7 @@ main .project-container {
 
 main .project-container .list li {
     border: 4px solid #1E3487;
-    padding: 1px;
+    padding: 5px;
     margin-bottom: 5px;
 }
 main .portfolio .links a {
